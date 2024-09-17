@@ -2,7 +2,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+// () => {}
+
+const App = () => {
+
+  const myFunction = () => {
+    console.log("hello world")
+  }
+
+  myFunction()
 
   return (
     <>
@@ -15,6 +23,7 @@ function App() {
         </a>
       </div>
       <h1>Hello World</h1>
+      
     </>
   )
 }
