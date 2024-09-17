@@ -3,6 +3,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 // () => {}
+// component = HTML + CSS + JS
+const MyComponent = () => {
+  return (
+    <div>Thinh update</div>
+  )
+}
 
 const App = () => {
 
@@ -23,7 +29,7 @@ const App = () => {
         </a>
       </div>
       <h1>Hello World</h1>
-      
+      <MyComponent/>
     </>
   )
 }
