@@ -1,14 +1,8 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
-// () => {}
-// component = HTML + CSS + JS
-const MyComponent = () => {
-  return (
-    <div>Thinh update</div>
-  )
-}
+import MyComponent from './components/learn/MyComponent'
+import { FirstComponent, SecondComponent } from './components/learn/SecondComponent'
 
 const App = () => {
 
@@ -30,6 +24,8 @@ const App = () => {
       </div>
       <h1>Hello World</h1>
       <MyComponent/>
+      <FirstComponent/>
+      <SecondComponent/>
     </>
   )
 }
