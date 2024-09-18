@@ -1,0 +1,39 @@
+.todo-container {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.todo-title {
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.todo-create input {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:azure;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.todo-create button {
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    padding: 10px;
+    color: #ffff;
+    background-color: blue;
+}
+.todo-data {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccc;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
