@@ -8,7 +8,7 @@ const TodoNew = (props) => {
     // addNewTodo('karik');
 
     const handleClick = () => {
-        console.log(valueInput)
+        addNewTodo(valueInput);
     }
     const handleOnChange = (event) => {
         setValueInput(event.target.value)
