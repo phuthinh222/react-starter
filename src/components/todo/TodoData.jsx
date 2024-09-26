@@ -9,6 +9,9 @@ const TodoData = (props) => {
             <div>Learning React</div>
             <div>Learning MySQL</div>
             <div>My name is {name}</div>
+            <div>
+                {JSON.stringify(props.todos)}
+            </div>
         </div>
     )
 }
