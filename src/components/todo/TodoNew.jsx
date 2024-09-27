@@ -2,20 +2,21 @@ import { useState } from "react";
 
 const TodoNew = (props) => {
     // useState hook
-    const [valueInput, setValueInput] = useState('Karik');
+    const [valueInput, setValueInput] = useState("");
 
     const {addNewTodo} = props;
     // addNewTodo('karik');
 
     const handleClick = () => {
         addNewTodo(valueInput);
+        setValueInput("")
     }
     const handleOnChange = (event) => {
         setValueInput(event.target.value)
     }
     return (
         <div className="todo-create">
-            <input type="text" placeholder="Enter task" onChange={handleOnChange}/>
+            <input type="text" placeholder="Enter task" onChange={handleOnChange} value={valueInput}/>
             <button
                 style={ {cursor: 'pointer'} }
                 onClick={() => handleClick()}
