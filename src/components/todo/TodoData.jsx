@@ -7,7 +7,7 @@ const TodoData = (props) => {
         <div className="todo-data">
             {todos.map( (item, index) => {
                 return (<>
-                    <div style={{display: 'flex', justifyContent:'space-between'}}>
+                    <div style={{display: 'flex', justifyContent:'space-between'}} key={item.id}>
                         {item.name}
                     <button>Delete</button>
                     </div>

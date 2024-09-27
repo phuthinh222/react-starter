@@ -7,12 +7,12 @@ import { useState } from "react"
 const App = () => {
 
   // {key: value}
-  const name = "Krak";
-  const age = 22;
-  const data = {
-    address: "Hue",
-    province: "Hue City"
-  }
+  // const name = "Krak";
+  // const age = 22;
+  // const data = {
+  //   address: "Hue",
+  //   province: "Hue City"
+  // }
   const [todos, setTodos] = useState([
     {
       id: 1,
@@ -46,9 +46,9 @@ const App = () => {
       <img src={reactLogo} alt="" />
     </div>
     <TodoData
-      name = {name}
-      age = {age}
-      data = {data}
+      // name = {name}
+      // age = {age}
+      // data = {data}
       todos = {todos}
      />
    </div>

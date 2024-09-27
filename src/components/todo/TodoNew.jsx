@@ -3,9 +3,7 @@ import { useState } from "react";
 const TodoNew = (props) => {
     // useState hook
     const [valueInput, setValueInput] = useState("");
-
     const {addNewTodo} = props;
-    // addNewTodo('karik');
 
     const handleClick = () => {
         addNewTodo(valueInput);
